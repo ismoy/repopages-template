@@ -48,6 +48,145 @@ RepoPages is a modern, responsive GitHub Pages template built with **Tailwind CS
 - ✅ Automatic dark/light mode with system detection
 - ✅ SEO optimized with complete meta tags
 - ✅ GitHub Pages compatible with Jekyll
+- ✅ Mobile-optimized scroll behavior
+- ✅ Professional footer with social links
+- ✅ Interactive setup script for easy customization
+- ✅ Modern gradient hero section
+- ✅ Feature cards with icons and descriptions
+- ✅ Code examples with syntax highlighting
+- ✅ Technology badges and project showcase
+- ✅ Accessibility features and semantic HTML
+
+## 📁 Project Structure
+
+```
+repopages-template/
+├── index.html              # Main template file
+├── setup.js               # Interactive setup script
+├── assets/
+│   └── js/
+│       └── theme-toggle.js # Dark/light mode toggle
+├── .github/
+│   └── workflows/
+│       ├── deploy.yml      # GitHub Actions for deployment
+│       └── pages.yml       # GitHub Pages configuration
+├── README.md              # Documentation
+├── TEMPLATE-ADAPTATION-GUIDE.md
+├── TEMPLATE_SETUP.md      # Setup instructions
+├── CUSTOMIZATION.md       # Customization guide
+├── LICENSE                # MIT License
+└── package.json          # NPM configuration
+
+```
+
+## 🎨 Customization
+
+### Quick Customization with Setup Script
+
+Run `node setup.js` for guided configuration of:
+
+- Project name and description
+- Author information and social links
+- Repository URLs and GitHub usernames
+- Color schemes and branding
+- Feature descriptions and technology stack
+- Meta tags and SEO information
+
+### Manual Customization
+
+1. **Edit Project Information**:
+   - Update title and meta descriptions in `<head>`
+   - Replace placeholder URLs with your actual links
+   - Modify hero section content and project description
+
+2. **Customize Colors and Branding**:
+   - Update color classes throughout the template
+   - Replace gradient backgrounds and accent colors
+   - Modify button styles and hover effects
+
+3. **Update Content Sections**:
+   - Replace feature cards with your project's features
+   - Update code examples and technology badges
+   - Customize footer links and social media icons
+
+4. **SEO Optimization**:
+   - Update all meta tags with your project information
+   - Add your social media usernames
+   - Include proper Open Graph and Twitter Card metadata
+
+## 🛠️ Technologies Used
+
+- **HTML5** - Semantic markup and accessibility
+- **Tailwind CSS** - Utility-first CSS framework
+- **JavaScript** - Theme toggle and interactivity
+- **GitHub Pages** - Static site hosting
+- **GitHub Actions** - Automated deployment
+- **Node.js** - Setup script and tooling
+
+## 📱 Mobile Features
+
+- **Fixed Header & Footer**: Navigation and credits always visible
+- **Scrollable Content**: Only main content area scrolls on mobile
+- **Responsive Design**: Optimized layouts for all screen sizes
+- **Touch-Friendly**: Proper spacing and interactive elements
+- **Performance**: Lightweight and fast loading
+
+## 🔧 Advanced Setup
+
+### GitHub Actions Deployment
+
+The template includes automated deployment via GitHub Actions:
+
+1. Push changes to `main` branch
+2. GitHub Actions automatically deploys to GitHub Pages
+3. Your site is available at `https://username.github.io/repository-name`
+
+### Custom Domain Setup
+
+1. Add your domain to `CNAME` file
+2. Configure DNS settings with your provider
+3. Enable custom domain in repository settings
+4. GitHub will handle SSL certificate automatically
+
+### Environment Variables
+
+For advanced setups, you can use environment variables:
+
+- `GITHUB_TOKEN`: For automated deployments
+- `CUSTOM_DOMAIN`: For custom domain configuration
+- `NODE_ENV`: For development/production builds
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📧 Support
+
+If you have any questions or need help with customization:
+
+- Open an issue on GitHub
+- Check the [customization guide](CUSTOMIZATION.md)
+- Review the [setup documentation](TEMPLATE_SETUP.md)
+
+## 🌟 Show Your Support
+
+If this template helped you create an awesome landing page, please give it a ⭐️!
+
+---
+
+**Created with ❤️ by [Ismoy Belizaire](https://github.com/ismoy)**
+
+[⬆ Back to top](#-repopages---professional-github-pages-template)
 - ✅ No build dependencies (Tailwind CDN)
 - ✅ Modular JavaScript architecture
 - ✅ Professional card-based design system
