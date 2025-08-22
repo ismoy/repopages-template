@@ -8,6 +8,25 @@
 [![Dark Mode](https://img.shields.io/badge/Dark%20Mode-Supported-yellow)](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
+[![Live Preview](https://raw.githubusercontent.com/ismoy/ImagePickerKMP/main/docs/preview.png)](https://ismoy.github.io/ImagePickerKMP/)
+
+
+<div align="center">
+
+<img src="./assets/image/Image 22-08-25 at 5.51 PM.jpg" alt="RepoPages Template Light Mode" width="45%">
+<img src="./assets/image/Image 22-08-25 at 5.52 PM.jpg" alt="RepoPages Template Dark Mode" width="45%">
+
+<img src="./assets/image/Image 22-08-25 at 5.53 PM.jpg" alt="Hero Section" width="30%">
+<img src="./assets/image/Image 22-08-25 at 5.54 PM.jpg" alt="Features Grid" width="30%">
+<img src="./assets/image/Image 22-08-25 at 5.55 PM.jpg" alt="Code Examples" width="30%">
+
+<img src="./assets/image/Image 22-08-25 at 5.52 PM (1).jpg" alt="Mobile View" width="45%">
+<img src="./assets/image/Image 22-08-25 at 5.53 PM (1).jpg" alt="Desktop View" width="45%">
+
+</div>
+
+---
+
 RepoPages is a modern, responsive GitHub Pages template built with **Tailwind CSS**. Perfect for creating professional landing pages for your repositories, open source projects, and developer tools.
 
 ## 🚀 Quick Start - Use This Template

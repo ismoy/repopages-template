@@ -6,10 +6,7 @@
   "scripts": {
     "setup": "node setup.js",
     "dev": "python -m http.server 8000 || python3 -m http.server 8000",
-    "dev-node": "npx live-server . --port=8000",
     "build": "echo 'No build step required for static site'",
-    "deploy": "gh-pages -d .",
-    "lint": "echo 'Linting HTML and CSS...'",
     "test": "echo 'No tests specified'",
     "start": "npm run dev"
   },
@@ -35,10 +32,6 @@
     "url": "https://github.com/ismoy/repopages-template/issues"
   },
   "homepage": "https://ismoy.github.io/repopages-template",
-  "devDependencies": {
-    "gh-pages": "^6.0.0",
-    "live-server": "^1.2.2"
-  },
   "engines": {
     "node": ">=14.0.0"
   },

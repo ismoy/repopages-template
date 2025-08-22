@@ -23,6 +23,7 @@ const config = {
   projectName: '',
   projectDescription: '',
   demoUrl: '',
+  customDomain: '',
   technologies: [],
   features: [],
   socialLinks: {
@@ -80,6 +81,10 @@ async function collectUserInput() {
   config.socialLinks.twitter = await question('Twitter username (without @): ');
   config.socialLinks.linkedin = await question('LinkedIn profile URL: ');
   config.socialLinks.website = await question('Personal website URL: ');
+  
+  // Custom domain
+  log('\n🌐 Custom Domain (optional):', 'blue');
+  config.customDomain = await question('Custom domain (e.g., mydomain.com) - leave empty for GitHub Pages default: ');
   
   config.socialLinks.github = `https://github.com/${config.githubUsername}`;
 }
@@ -355,6 +360,21 @@ setup.js
   log('✅ .gitignore created successfully!', 'green');
 }
 
+function createCNAME() {
+  if (config.customDomain && config.customDomain.trim()) {
+    const cnameContent = config.customDomain.trim();
+    fs.writeFileSync(path.join(__dirname, 'CNAME'), cnameContent);
+    log('✅ CNAME file created successfully!', 'green');
+  } else {
+    // Remove CNAME file if it exists and no custom domain is specified
+    const cnamePath = path.join(__dirname, 'CNAME');
+    if (fs.existsSync(cnamePath)) {
+      fs.unlinkSync(cnamePath);
+      log('✅ CNAME file removed (using GitHub Pages default domain)', 'green');
+    }
+  }
+}
+
 function showCompletionInstructions() {
   log('\n🎉 Setup Complete!', 'green');
   log('═══════════════════════════════════════════════', 'cyan');
@@ -370,7 +390,12 @@ function showCompletionInstructions() {
   log(`   https://github.com/${config.githubUsername}/${config.repositoryName}/settings/pages`, 'cyan');
   
   log('\n4. Your site will be available at:', 'bright');
-  log(`   https://${config.githubUsername}.github.io/${config.repositoryName}`, 'green');
+  if (config.customDomain && config.customDomain.trim()) {
+    log(`   https://${config.customDomain}`, 'green');
+    log(`   Note: Configure your DNS to point to GitHub Pages`, 'yellow');
+  } else {
+    log(`   https://${config.githubUsername}.github.io/${config.repositoryName}`, 'green');
+  }
   
   log('\n📚 Additional Commands:', 'yellow');
   log('• npm run dev     - Start local development server', 'bright');
@@ -397,6 +422,7 @@ async function main() {
     updatePackageJson();
     createGitHubWorkflow();
     createGitIgnore();
+    createCNAME();
     
     showCompletionInstructions();
     
