@@ -2,7 +2,6 @@
 
 > **Create stunning landing pages for your GitHub repositories in minutes!**
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Ready-brightgreen)](https://pages.github.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-v3.0-blue)](https://tailwindcss.com/)
 [![Responsive](https://img.shields.io/badge/Responsive-Design-purple)](https://developers.google.com/web/fundamentals/design-and-ux/responsive)
 [![Dark Mode](https://img.shields.io/badge/Dark%20Mode-Supported-yellow)](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
@@ -11,19 +10,20 @@
 [![Live Preview](https://img.shields.io/badge/Live%20Preview-ImagePickerKMP-blue?style=for-the-badge)](https://ismoy.github.io/ImagePickerKMP/)
 
 
+<div align="center">
+  <img src="https://github.com/ismoy/repopages-template/blob/main/assets/image/Image%2022-08-25%20at%205.51%E2%80%AFPM.jpg?raw=true" width="100%"/>
+  <img src="https://github.com/ismoy/repopages-template/blob/main/assets/image/Image%2022-08-25%20at%205.52%E2%80%AFPM.jpg?raw=true" width="100%"/>
+  <img src="https://github.com/ismoy/repopages-template/blob/main/assets/image/Image%2022-08-25%20at%205.52%E2%80%AFPM%20(1).jpg?raw=true" width="100%"/>
+</div>
 
 <div align="center">
+  <img src="https://github.com/ismoy/repopages-template/blob/main/assets/image/Image%2022-08-25%20at%205.53%E2%80%AFPM.jpg?raw=true" width="100%"/>
+  <img src="https://github.com/ismoy/repopages-template/blob/main/assets/image/Image%2022-08-25%20at%205.53%E2%80%AFPM%20(1).jpg?raw=true" width="100%"/>
+  <img src="https://github.com/ismoy/repopages-template/blob/main/assets/image/Image%2022-08-25%20at%205.54%E2%80%AFPM.jpg?raw=true" width="100%"/>
+</div>
 
-<img src="./assets/image/Image 22-08-25 at 5.51 PM.jpg" alt="RepoPages Template Light Mode" width="45%">
-<img src="./assets/image/Image 22-08-25 at 5.52 PM.jpg" alt="RepoPages Template Dark Mode" width="45%">
-
-<img src="./assets/image/Image 22-08-25 at 5.53 PM.jpg" alt="Hero Section" width="30%">
-<img src="./assets/image/Image 22-08-25 at 5.54 PM.jpg" alt="Features Grid" width="30%">
-<img src="./assets/image/Image 22-08-25 at 5.55 PM.jpg" alt="Code Examples" width="30%">
-
-<img src="./assets/image/Image 22-08-25 at 5.52 PM (1).jpg" alt="Mobile View" width="45%">
-<img src="./assets/image/Image 22-08-25 at 5.53 PM (1).jpg" alt="Desktop View" width="45%">
-
+<div align="center">
+  <img src="https://github.com/ismoy/repopages-template/blob/main/assets/image/Image%2022-08-25%20at%205.55%E2%80%AFPM.jpg?raw=true" width="100%"/>
 </div>
 
 ---
