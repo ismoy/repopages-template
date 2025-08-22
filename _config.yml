@@ -1,0 +1,53 @@
+# Jekyll Configuration for GitHub Pages
+title: "Professional GitHub Pages Template"
+description: "A modern, responsive website template built with Tailwind CSS, optimized for GitHub Pages deployment. Perfect for showcasing projects and portfolios."
+url: "https://your-username.github.io" # Change to your GitHub Pages URL
+baseurl: "/your-repository-name" # Change to your repository name
+
+# GitHub Pages settings
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO settings
+author: "Your Name"
+logo: "/assets/logo.png"
+social:
+  name: "Your Name"
+  links:
+    - "https://github.com/your-username"
+    - "https://twitter.com/your-username"
+
+# Build settings
+exclude:
+  - README.md
+  - CUSTOMIZATION.md
+  - TEMPLATE-ADAPTATION-GUIDE.md
+  - JAVASCRIPT-STRUCTURE.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+
+# Include files
+include:
+  - _redirects
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Sass settings
+sass:
+  style: compressed
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+# Timezone
+timezone: America/New_York

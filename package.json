@@ -1,0 +1,49 @@
+{
+  "name": "repopages-template",
+  "version": "1.0.0",
+  "description": "Professional GitHub Pages template for repositories. Built with Tailwind CSS, featuring responsive design and dark mode support.",
+  "main": "index.html",
+  "scripts": {
+    "setup": "node setup.js",
+    "dev": "python -m http.server 8000 || python3 -m http.server 8000",
+    "dev-node": "npx live-server . --port=8000",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "gh-pages -d .",
+    "lint": "echo 'Linting HTML and CSS...'",
+    "test": "echo 'No tests specified'",
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismoy/repopages-template.git"
+  },
+  "keywords": [
+    "github-pages",
+    "template",
+    "landing-page",
+    "tailwindcss",
+    "responsive",
+    "dark-mode",
+    "repository",
+    "showcase",
+    "developer-tools",
+    "open-source"
+  ],
+  "author": "Ismoy Belizaire <ismoy@example.com> (https://github.com/ismoy)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ismoy/repopages-template/issues"
+  },
+  "homepage": "https://ismoy.github.io/repopages-template",
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/ismoy"
+  }
+}

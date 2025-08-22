@@ -1,0 +1,63 @@
+# Template Configuration File
+# This file contains instructions for users who want to use this template
+
+name: RepoPages Template
+description: Professional GitHub Pages template for repositories
+author: Ismoy Belizaire
+repository: https://github.com/ismoy/repopages-template
+version: 1.0.0
+
+# Setup Instructions
+setup_steps:
+  - "Click 'Use this template' on GitHub"
+  - "Create a new repository with your desired name"
+  - "Clone your new repository locally"
+  - "Run the setup script: node setup.js"
+  - "Follow the interactive prompts"
+  - "Commit and push your changes"
+  - "Enable GitHub Pages in repository settings"
+
+# Required Repository Settings
+github_pages:
+  source: "Deploy from a branch"
+  branch: "main"
+  folder: "/ (root)"
+
+# Features
+features:
+  - Responsive design with Tailwind CSS
+  - Dark mode support with theme toggle
+  - SEO optimized with meta tags and structured data
+  - GitHub Pages ready with automated deployment
+  - Professional landing page layout
+  - Social media integration
+  - Interactive setup script
+  - Mobile-first responsive design
+
+# Customization Options
+customizable:
+  - Project name and description
+  - Technology badges
+  - Feature highlights
+  - Social media links
+  - Color scheme and branding
+  - Content sections
+  - Images and media
+
+# Browser Support
+browsers:
+  - Chrome (latest)
+  - Firefox (latest)
+  - Safari (latest)
+  - Edge (latest)
+  - Mobile browsers
+
+# File Structure
+files:
+  index.html: "Main landing page"
+  setup.js: "Interactive setup script"
+  package.json: "NPM configuration"
+  README.md: "Project documentation"
+  assets/js/theme-toggle.js: "Dark mode functionality"
+  .github/workflows/: "GitHub Actions for deployment"
+  _config.yml: "Jekyll configuration for GitHub Pages"
