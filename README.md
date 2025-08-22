@@ -8,7 +8,8 @@
 [![Dark Mode](https://img.shields.io/badge/Dark%20Mode-Supported-yellow)](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-[![Live Preview](https://raw.githubusercontent.com/ismoy/ImagePickerKMP/main/docs/preview.png)](https://ismoy.github.io/ImagePickerKMP/)
+[![Live Preview](https://img.shields.io/badge/Live%20Preview-ImagePickerKMP-blue?style=for-the-badge)](https://ismoy.github.io/ImagePickerKMP/)
+
 
 
 <div align="center">
